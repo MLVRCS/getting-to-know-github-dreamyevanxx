@@ -38,5 +38,6 @@ With the Huracán EVO, Huracán STO, and Huracán EVO Spyder winning multiple ho
 
 A year filled with awards that made everyone at Lamborghini happy.</p>
 
+<body style="background-color:#EA9E70">
 </body>
 </html>
