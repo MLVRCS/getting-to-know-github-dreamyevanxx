@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #F8EC87;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: Black;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #F8EC87;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>The shocking history of Lamborghini!</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">The Histroy of Lamborghini🚗</a></li>
+      
+      <li><a href="#"> Lamborghini's greatest acomplishments.🏁</a></li>
+      <li><a href="#">link of credible sources✍</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Lamborghini</h1>
+    <p>Lamborghini is widely recognized as one of the top luxury car brands in the world, known for their sleek and powerful designs. With their iconic and distinctive styling, exceptional performance, and high-end features, Lamborghinis are loved by car enthusiasts and collectors alike. From the roar of the engine to the precision handling, driving a Lamborghini is an unforgettable experience. The brand's commitment to innovation and excellence has earned them a reputation as one of the most desirable and sought-after automotive brands, making them a symbol of wealth, success.</p>
+  </article>
+</section>
+
+<footer>
+  <p>By-Evan Gonzalez</p>
+</footer>
+
+</body>
+</html>
+
